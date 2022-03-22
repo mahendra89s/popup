@@ -27,31 +27,31 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/btnProfile"
+        android:id="@+id/profile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginVertical="15dp"
         android:text="@string/profile"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/verticalBAr"
+        app:layout_constraintBottom_toTopOf="@id/verticalBar"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txtName" />
 
     <View
-        android:id="@+id/verticalBAr"
+        android:id="@+id/verticalBar"
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="#696969"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnProfile"
-        app:layout_constraintBottom_toTopOf="@id/btnLogOut"/>
+        app:layout_constraintTop_toBottomOf="@id/profile"
+        app:layout_constraintBottom_toTopOf="@id/logOut"/>
 
     <TextView
-        android:id="@+id/btnLogOut"
+        android:id="@+id/logOut"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/log_out"
@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/verticalBAr" />
+        app:layout_constraintTop_toBottomOf="@id/verticalBar" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

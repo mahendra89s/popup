@@ -4,4 +4,6 @@
     <string name="profile">Profile</string>
     <string name="log_out">Log Out</string>
     <string name="name">Name</string>
+    <string name="edit_payment_info">Edit Payment Info</string>
+    <string name="save">Save</string>
 </resources>

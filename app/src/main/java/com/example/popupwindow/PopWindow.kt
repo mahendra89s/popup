@@ -1,15 +1,11 @@
 package com.example.popupwindow
 
-import android.content.Context
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
-import android.view.View.inflate
-
 import android.widget.LinearLayout
 import android.widget.PopupWindow
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat.getSystemService
 
 class PopWindow(context: AppCompatActivity) : PopupWindow() {
 

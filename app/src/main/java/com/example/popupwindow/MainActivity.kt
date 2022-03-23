@@ -5,6 +5,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.popupwindow.editPayment.EditPaymentFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnEditPayment.setOnClickListener {
-            EditPaymentFragment()
+            EditPaymentFragment().show(supportFragmentManager,"DialogFragment")
         }
 
     }

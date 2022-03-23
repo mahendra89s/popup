@@ -7,9 +7,11 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/PopupWindow/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/PopupWindow/app/src/main/res/layout/pop_up_layout.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/PopupWindow/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/drawable/add_new_payment_card_background.xml" value="0.1865" />
         <entry key="app/src/main/res/drawable/button_background.xml" value="0.131" />
         <entry key="app/src/main/res/drawable/popup_background.xml" value="0.131" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/add_new_payment_details_card.xml" value="0.1" />
         <entry key="app/src/main/res/layout/edit_payment_dialog_layout.xml" value="0.15" />
         <entry key="app/src/main/res/layout/pop_up_layout.xml" value="0.15" />
       </map>
